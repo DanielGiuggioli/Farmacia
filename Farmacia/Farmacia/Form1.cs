@@ -39,20 +39,37 @@ namespace Farmacia
 
         private void btnconferma_Click(object sender, EventArgs e)
         {
-            farmaci[num] = new Farmaco
+            if (MyLibrary.Posizione(farmaci, num, txbcodice.Text) == -1)
             {
-                categoria = txbtipologia.Text,
-                codice = txbcodice.Text,
-                descrizione = txbdescrizione.Text,
-                età = int.Parse(txbanni.Text) * int.Parse(txbmesi.Text),
-                nome = txbnome.Text,
-                prezzo = decimal.Parse(txbprezzo.Text),
-                quantità = int.Parse(txbquantita.Text),
-                scadenza = DateTime.Parse(txbdata.Text)
+                farmaci[num] = new Farmaco
+                {
+                    categoria = txbtipologia.Text,
+                    codice = txbcodice.Text,
+                    descrizione = txbdescrizione.Text,
+                    età = int.Parse(txbanni.Text) * int.Parse(txbmesi.Text),
+                    nome = txbnome.Text,
+                    prezzo = decimal.Parse(txbprezzo.Text),
+                    quantità = int.Parse(txbquantita.Text),
+                    scadenza = DateTime.Parse(txbdata.Text)
 
-            };
+                };
 
-            num++;
+                num++;
+            }
+            else
+            {
+                farmaci[MyLibrary.Posizione(farmaci, num, txbcodice.Text)] = new Farmaco
+                {
+                    categoria = txbtipologia.Text,
+                    codice = txbcodice.Text,
+                    descrizione = txbdescrizione.Text,
+                    età = int.Parse(txbanni.Text) * int.Parse(txbmesi.Text),
+                    nome = txbnome.Text,
+                    prezzo = decimal.Parse(txbprezzo.Text),
+                    quantità = int.Parse(txbquantita.Text),
+                    scadenza = DateTime.Parse(txbdata.Text)
+                };
+            }
 
             Clean(this);
         }
