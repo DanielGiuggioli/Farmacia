@@ -17,6 +17,10 @@ namespace Farmacia
         {
             InitializeComponent();
         }
-        
+
+        private void btnconferma_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
