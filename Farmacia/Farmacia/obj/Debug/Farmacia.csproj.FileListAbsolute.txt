@@ -1,0 +1,11 @@
+C:\Users\giugg\OneDrive\Documenti\GitHub\Farmacia\Farmacia\Farmacia\bin\Debug\Farmacia.exe.config
+C:\Users\giugg\OneDrive\Documenti\GitHub\Farmacia\Farmacia\Farmacia\bin\Debug\Farmacia.exe
+C:\Users\giugg\OneDrive\Documenti\GitHub\Farmacia\Farmacia\Farmacia\bin\Debug\Farmacia.pdb
+C:\Users\giugg\OneDrive\Documenti\GitHub\Farmacia\Farmacia\Farmacia\obj\Debug\Farmacia.csprojAssemblyReference.cache
+C:\Users\giugg\OneDrive\Documenti\GitHub\Farmacia\Farmacia\Farmacia\obj\Debug\Farmacia.Form1.resources
+C:\Users\giugg\OneDrive\Documenti\GitHub\Farmacia\Farmacia\Farmacia\obj\Debug\Farmacia.Properties.Resources.resources
+C:\Users\giugg\OneDrive\Documenti\GitHub\Farmacia\Farmacia\Farmacia\obj\Debug\Farmacia.csproj.GenerateResource.cache
+C:\Users\giugg\OneDrive\Documenti\GitHub\Farmacia\Farmacia\Farmacia\obj\Debug\Farmacia.csproj.CoreCompileInputs.cache
+C:\Users\giugg\OneDrive\Documenti\GitHub\Farmacia\Farmacia\Farmacia\obj\Debug\Farmacia.csproj.CopyComplete
+C:\Users\giugg\OneDrive\Documenti\GitHub\Farmacia\Farmacia\Farmacia\obj\Debug\Farmacia.exe
+C:\Users\giugg\OneDrive\Documenti\GitHub\Farmacia\Farmacia\Farmacia\obj\Debug\Farmacia.pdb

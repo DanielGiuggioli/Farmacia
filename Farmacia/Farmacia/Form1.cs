@@ -73,7 +73,7 @@ namespace Farmacia
 
             Clean(this);
         }
-                
+
         private void listView1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
@@ -104,7 +104,7 @@ namespace Farmacia
             Farmaco[] newFarmaci = new Farmaco[arraySize];
             for (int i = 0; i < num; i++)
             {
-                if(farmaci[i].codice.Contains(txbcerca.Text))
+                if (farmaci[i].codice.Contains(txbcerca.Text))
                 {
                     newFarmaci[newNum] = farmaci[i];
                     newNum++;
@@ -178,3 +178,4 @@ namespace Farmacia
             MyLibrary.Aggiorna(farmaci, num, listView1);
         }
     }
+}
