@@ -168,7 +168,6 @@ namespace Farmacia
 
         private void radioButton3_CheckedChanged(object sender, EventArgs e)
         {
-
             if (radioButton3.Checked)
             {
                 radioButton5.Checked = false;
@@ -179,6 +178,3 @@ namespace Farmacia
             MyLibrary.Aggiorna(farmaci, num, listView1);
         }
     }
-}
-
-
