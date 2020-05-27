@@ -46,7 +46,7 @@ namespace Farmacia
                     categoria = txbtipologia.Text,
                     codice = txbcodice.Text,
                     descrizione = txbdescrizione.Text,
-                    età = int.Parse(txbanni.Text) * int.Parse(txbmesi.Text),
+                    età = int.Parse(txbanni.Text),
                     nome = txbnome.Text,
                     prezzo = decimal.Parse(txbprezzo.Text),
                     quantità = int.Parse(txbquantita.Text),
